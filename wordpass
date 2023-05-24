@@ -20,7 +20,6 @@ class Solution
         {
             long avg =(sum[i+k]-sum[i-k]+nums[i-k])/(k*2+1);
             result [i]= (int)avg;
-
         }
         return result;
 }
