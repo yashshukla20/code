@@ -18,7 +18,7 @@ def create_commit_in_past(days_ago: int, commit_message: str):
     del os.environ['GIT_COMMITTER_DATE']
 
 # Number of days to go back in time for the new commit
-num_days_ago = 7
+num_days_ago = 1
 
 # Commit message for the new commit
 commit_message = "This is a commit from a week ago."
